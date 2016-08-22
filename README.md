@@ -33,10 +33,10 @@ SOFTWARE REQUIREMENTS
 INSTALLATION
 ------------
 
-- Download melc-genomics-1.0.tgz and uncompress the file.
+Download melc-genomics-1.0.tgz and uncompress the file.
         # tar zxvf melc-genomics-1.0.tgz
 
-- Move index.php file and melc directory to web directory.
+Move index.php file and melc directory to web directory.
         # mv index.php /var/www/html
         # mv melc /var/www/html
 
