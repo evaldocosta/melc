@@ -64,7 +64,7 @@ INSTALLATION
 
         # service httpd restart
 
-- access the MELC in your browser
+- Access the MELC in your browser
 
         http://your.server/
 
