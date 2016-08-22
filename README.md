@@ -21,13 +21,13 @@ MELC Genomics runs on 64-bit Linux system.
 SOFTWARE REQUIREMENTS
 ---------------------
 
-- httpd
-- php
-- java
-- perl
-- R
-- python
-- python-matplotlib
+httpd
+php
+java
+perl
+R
+python
+python-matplotlib
 
 
 INSTALLATION
