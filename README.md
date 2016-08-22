@@ -21,13 +21,13 @@ MELC Genomics runs on 64-bit Linux system.
 SOFTWARE REQUIREMENTS
 ---------------------
 
-httpd
-php
-java
-perl
-R
-python
-python-matplotlib
+- httpd
+- php
+- java
+- perl
+- R
+- python
+- python-matplotlib
 
 
 INSTALLATION
@@ -48,22 +48,28 @@ INSTALLATION
         DirectoryIndex index.html index.php index.html.var
 
 - Add service to start on boot
+
         # chkconfig httpd on
 
 - Edit file /etc/php.ini and change lines:
+
         file_uploads = On               (Whether to allow HTTP file uploads)
         upload_max_filesize = 2M        (Maximum allowed size for uploaded files)
 
 - If you use a firewall, insert a new rule:
+
         # iptables -I INPUT 1 -p tcp --dport 80 -j ACCEPT
 
 - Restart the httpd service
+
         # service httpd restart
 
 - access the MELC in your browser
+
         http://your.server/
 
 - Login and password
+
         username: admin
         password: admin123
 
