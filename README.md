@@ -71,8 +71,7 @@ INSTALLATION
 AUTHOR AND CONTACT
 ------------------
 
-Evaldo B. Costa
-melcgenomics@gmail.com
+Evaldo B. Costa - melcgenomics@gmail.com
 
 
 COPYRIGHT
