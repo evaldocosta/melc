@@ -33,10 +33,11 @@ SOFTWARE REQUIREMENTS
 INSTALLATION
 ------------
 
-- Download melc-genomics-1.0.tgz and uncompress the file.
+- Download files melc-genomics-1.0.tar.gzaa, melc-genomics-1.0.tar.gzab and melc-genomics-1.0.tar.gzac and uncompress.
 
-        # tar zxvf melc-genomics-1.0.tgz
-
+        # cat melc-genomics-1.0.tar.gz* > melc-genomics-1.0.tar.gz
+        # tar xzvf melc-genomics-1.0.tar.gz
+        
 - Move melc directory to web directory.
 
         # mv melc /var/www/html
