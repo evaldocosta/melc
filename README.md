@@ -41,10 +41,9 @@ INSTALLATION
 
         # mv melc /var/www/html
 
-- Edit file /etc/httpd/conf/httpd.conf and add lines:
+- Edit file /etc/httpd/conf/httpd.conf and add line:
 
         ServerName <ip server>:80
-        DirectoryIndex index.html index.php index.html.var
 
 - Add service to start on boot
 
