@@ -37,9 +37,8 @@ INSTALLATION
 
         # tar zxvf melc-genomics-1.0.tgz
 
-- Move index.php file and melc directory to web directory.
+- Move melc directory to web directory.
 
-        # mv index.php /var/www/html
         # mv melc /var/www/html
 
 - Edit file /etc/httpd/conf/httpd.conf and add lines:
@@ -66,12 +65,7 @@ INSTALLATION
 
 - Access the MELC in your browser
 
-        http://your.server/
-
-- Login and password
-
-        username: admin
-        password: admin123
+        http://your.server/melc
 
 
 AUTHOR AND CONTACT
