@@ -3,7 +3,7 @@ ABOUT
 
 MELC genomics is a framework for DNA assembly and analyses.
 
-Here we made available a complete pipeline for de novo genome assembly, where the user will be able to:
+Here we made available a pipeline for de novo genome assembly, where the user will be able to:
 
 - check the quality before and after the processing of the raw data files;
 - process the data, e. g. trimming adapters and low quality bases;
