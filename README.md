@@ -1,7 +1,7 @@
 ABOUT
 -----
 
-MELC genomics is a framework for DNA assembly and analyses.
+MELC genomics is a framework for de novo DNA assembly and analyses.
 
 Here we made available a pipeline for de novo genome assembly, where the user will be able to:
 
@@ -71,7 +71,7 @@ INSTALLATION
 AUTHOR AND CONTACT
 ------------------
 
-Evaldo B. Costa - melcgenomics@gmail.com
+Evaldo B. Costa - evaldodacosta@gmail.com
 
 
 COPYRIGHT
