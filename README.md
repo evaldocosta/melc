@@ -30,7 +30,7 @@ SOFTWARE REQUIREMENTS
 INSTALLATION
 ------------
 
-- Download files melc-genomics-2.0.tar.gzaa, melc-genomics-2.0.tar.gzab, melc-genomics-2.0.tar.gzac and melc-genomics-2.0.tar.gzad and uncompress.
+- Download files melc-genomics-2.0.tar.gzaa, melc-genomics-2.0.tar.gzab and melc-genomics-2.0.tar.gzac and uncompress.
 
         # cat melc-genomics-2.0.tar.gz* > melc-genomics-2.0.tar.gz
         # tar xzvf melc-genomics-2.0.tar.gz
