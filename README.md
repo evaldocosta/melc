@@ -1,15 +1,13 @@
 ABOUT
 -----
 
-MELC genomics is a framework for de novo genome assembly and analyses.
+MELC genomics is a framework for DNA assembly.
 
 Here we made available a pipeline for de novo genome assembly, where the user will be able to:
 
 - check the quality before and after the processing of the raw data files;
-- process the data, e. g. trimming adapters and low quality bases;
 - assemble the genome;
-- check the quality of the assembly;
-- compare different assembly approaches.
+- check the quality of the assembly.
 
 
 SYSTEM REQUIREMENTS
@@ -27,16 +25,15 @@ SOFTWARE REQUIREMENTS
 - perl
 - R
 - python
-- python-matplotlib
 
 
 INSTALLATION
 ------------
 
-- Download files melc-genomics-1.0.tar.gzaa, melc-genomics-1.0.tar.gzab and melc-genomics-1.0.tar.gzac and uncompress.
+- Download files melc-genomics-2.0.tar.gzaa, melc-genomics-2.0.tar.gzab and melc-genomics-2.0.tar.gzac and uncompress.
 
-        # cat melc-genomics-1.0.tar.gz* > melc-genomics-1.0.tar.gz
-        # tar xzvf melc-genomics-1.0.tar.gz
+        # cat melc-genomics-2.0.tar.gz* > melc-genomics-2.0.tar.gz
+        # tar xzvf melc-genomics-2.0.tar.gz
         
 - Move melc directory to web directory.
 
@@ -77,4 +74,4 @@ Evaldo B. Costa - evaldodacosta@gmail.com
 COPYRIGHT
 ---------
 
-Copyright 2017 Evaldo B. Costa
+Copyright 2021 Evaldo B. Costa
