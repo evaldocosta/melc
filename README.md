@@ -60,7 +60,7 @@ INSTALLATION
 
         # service httpd restart
 
-- Access the MELC in your browser. The default username and password are “admin” and “admin”.
+- Access the MELC in your browser. The default username and password are "admin" and "admin".
 
         http://your.server/melc
 
