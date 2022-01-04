@@ -5,6 +5,7 @@ MELC genomics is a framework for DNA assembly.
 
 Here we made available a pipeline for de novo genome assembly, where the user will be able to:
 
+- system information and performance monitoring;
 - check the quality before and after the processing of the raw data files;
 - assemble the genome;
 - check the quality of the assembly.
@@ -25,6 +26,7 @@ SOFTWARE REQUIREMENTS
 - perl
 - R
 - python
+- Matplotlib
 
 
 INSTALLATION
@@ -60,9 +62,15 @@ INSTALLATION
 
         # service httpd restart
 
-- Access the MELC in your browser. The default username and password are "admin" and "admin".
+- Access the MELC in your browser.
 
         http://your.server/melc
+
+- To add or remove a user, edit the users.txt file. Each username and password are separated by ":", one per line. The default username and password are "admin" and "admin".
+        
+        admin:admin
+
+- To change the email address used in the "Forgot password?" login page, and in the "CONTACT" section, edit the contact.txt file, adding only your email address.
 
 
 AUTHOR AND CONTACT
