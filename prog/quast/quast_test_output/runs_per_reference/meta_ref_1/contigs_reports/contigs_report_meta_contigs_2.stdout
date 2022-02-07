@@ -1,0 +1,55 @@
+Aligning contigs to reference...
+	Aligning contigs to the reference
+Filtering alignments...
+Parsing coords...
+Loading reference...
+	Loaded [meta_ref_1_Lactobacillus_plantarum_22_55k.fa]
+	Total Regions: 1
+	Total Region Length: 54999
+Analyzing contigs...
+CONTIG: NODE_2_length_49658_cov_2.58581_ID_2497514 (49658bp)
+Best alignment score: 49648.1 (LEN: 49658, IDY: 99.98), Total number of alignments: 1
+		One align captures most of this contig: 5305 54962 | 1 49658 | 49658 49658 | 99.98 | meta_ref_1_Lactobacillus_plantarum_22_55k.fa NODE_2_length_49658_cov_2.58581_ID_2497514
+
+CONTIG: NODE_10_length_714_cov_2.71927_ID_9333852 (714bp)
+Best alignment score: 713.0 (LEN: 714, IDY: 99.86), Total number of alignments: 1
+		One align captures most of this contig: 78 791 | 714 1 | 714 714 | 99.86 | meta_ref_1_Lactobacillus_plantarum_22_55k.fa NODE_10_length_714_cov_2.71927_ID_9333852
+
+CONTIG: NODE_29_length_219_cov_25.5122_ID_8985538 (763bp)
+Best alignment score: 183.0 (LEN: 183, IDY: 100.00), Total number of alignments: 1
+			Looking for the best set of alignments (out of 1 total alignments)
+			The best set is below. Score: 183.0, number of alignments: 1, unaligned bases: 580
+		Alignment: 3645 3827 | 428 610 | 183 183 | 100.0 | meta_ref_1_Lactobacillus_plantarum_22_55k.fa NODE_29_length_219_cov_25.5122_ID_8985538
+
+Analyzing coverage...
+Writing SNPs into /var/www/html/melc/prog/quast-5.0.2/quast_test_output/runs_per_reference/meta_ref_1/contigs_reports/minimap_output/meta_contigs_2.used_snps.gz
+
+Analysis is finished!
+Founded SNPs were written into /var/www/html/melc/prog/quast-5.0.2/quast_test_output/runs_per_reference/meta_ref_1/contigs_reports/minimap_output/meta_contigs_2.used_snps.gz
+
+Results:
+	Local Misassemblies: 0
+	Misassemblies: 0
+		Relocations: 0
+		Translocations: 0
+		Inversions: 0
+	Scaffold gap extensive misassemblies: 0
+	Scaffold gap local misassemblies: 0
+	Misassembled Contigs: 0
+	Misassembled Contig Bases: 0
+	Misassemblies Inter-Contig Overlap: 0
+Unaligned Contigs: 0 + 0 part
+Half Unaligned Contigs with Misassemblies: 0
+Unaligned Contig Bases: 0
+
+Ambiguously Mapped Contigs: 0
+Total Bases in Ambiguously Mapped Contigs: 0
+Extra Bases in Ambiguously Mapped Contigs: 0
+Note that --allow-ambiguity option was set to "one" and only first alignment per each of these contigs was used.
+
+	Covered Bases: 50555
+
+	SNPs: 13
+	Insertions: 0
+	Deletions: 0
+

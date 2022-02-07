@@ -1,0 +1,11 @@
+6129 6960 | 832 1 | 832 832 | 100.0 | meta_ref_3_Lactobacillus_reuteri_F275_Kitasato_55_65k.fa NODE_25_length_832_cov_317.008 | cs:Z::832
+6958 7651 | 1 694 | 694 694 | 100.0 | meta_ref_3_Lactobacillus_reuteri_F275_Kitasato_55_65k.fa NODE_30_length_694_cov_43.795 | cs:Z::28*an:7*tn:16*an:632*gn:7
+3868 4924 | 1 1057 | 1057 1057 | 99.91 | meta_ref_3_Lactobacillus_reuteri_F275_Kitasato_55_65k.fa NODE_32_length_1057_cov_298.503 | cs:Z::1002*ta:54
+25 3922 | 1 3898 | 3898 3898 | 99.97 | meta_ref_3_Lactobacillus_reuteri_F275_Kitasato_55_65k.fa NODE_34_length_3898_cov_294.65 | cs:Z::201*ac:3696
+6958 7704 | 1 747 | 747 747 | 100.0 | meta_ref_3_Lactobacillus_reuteri_F275_Kitasato_55_65k.fa NODE_37_length_747_cov_199.488 | cs:Z::686*gn:60
+6958 7819 | 1 862 | 862 862 | 97.79 | meta_ref_3_Lactobacillus_reuteri_F275_Kitasato_55_65k.fa NODE_38_length_862_cov_88.5167 | cs:Z::28*an:7*tn:649*gn:7*gc:18*ta*ca*gt*cg*ca:1*ga:12*cg:3*tc*ta:5*ag:5*at*ag:15-c:2*at:1*gt:2+t*at:35*tc:51
+5197 6183 | 1 987 | 987 987 | 100.0 | meta_ref_3_Lactobacillus_reuteri_F275_Kitasato_55_65k.fa NODE_40_length_987_cov_309.523 | cs:Z::987
+35992 53525 | 17534 1 | 17534 17534 | 99.98 | meta_ref_3_Lactobacillus_reuteri_F275_Kitasato_55_65k.fa NODE_41_length_17535_cov_311.913 | cs:Z::16871*ta:52*ga:13*ac:1*ga:539*tn:53
+53899 64999 | 2 11102 | 11101 11101 | 99.93 | meta_ref_3_Lactobacillus_reuteri_F275_Kitasato_55_65k.fa NODE_42_length_11102_cov_303.126 | cs:Z::53*ga:30*ag:174*ct:95*ga:95*ct:3*ct:21*tc:60*ag:10562
+25 3451 | 1 3427 | 3427 3427 | 99.97 | meta_ref_3_Lactobacillus_reuteri_F275_Kitasato_55_65k.fa NODE_43_length_3427_cov_1.72301 | cs:Z::201*ac:3225
+7650 35618 | 27969 1 | 27969 27969 | 99.96 | meta_ref_3_Lactobacillus_reuteri_F275_Kitasato_55_65k.fa NODE_44_length_27969_cov_310.914 | cs:Z::22759*tn:4819*ga:92*gc:12*ag:70*gt:65*ga:32*ag:10*ct:12*ga:20*ga:10*gt:3*gn:53

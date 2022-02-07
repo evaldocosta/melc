@@ -1,0 +1,93 @@
+
+
+
+-------------------------------------------------
+start time            : Thu Nov 11 13:30:15 2021
+GMS version           : 4.30 October 2014
+working directory     : /var/www/html/melc/prog/quast-5.0.2/quast_test_output/predicted_genes/tmp/tmpimOneP
+command line          : --name contigs_2 --clean --out /var/www/html/melc/prog/quast-5.0.2/quast_test_output/predicted_genes/tmp/tmpimOneP /var/www/html/melc/prog/quast-5.0.2/quast_test_output/quast_corrected_input/contigs_2.fasta
+output file with predictions : contigs_2.fasta.lst
+input sequence        : /var/www/html/melc/prog/quast-5.0.2/quast_test_output/quast_corrected_input/contigs_2.fasta
+output name for model : contigs_2
+combine model         : 
+GeneMark model        : 
+species name          : 
+delete temp files     : 1
+markov chain order    : 2
+non-coding order      : 2
+genetic code          : 11
+sequence organization : partial
+search for motif      : 1
+motif width           : 6
+prestart length       : 40
+identity threshold    : 0.99
+maximum iteration     : 10
+fixed motif position  : 
+gene overlap off      : 
+strand to predict on  : both
+mode prokaryotic      : 
+mode eukaryotic       : 
+mode virus            : 
+mode phage            : 
+mode est              : 
+GeneMarkS parameters  : /var/www/html/melc/prog/quast-5.0.2/quast_libs/genemark/linux_64/par_11.default
+initial hmm model     : 
+output format         : LST
+output PostScript     : 
+output PDF            : 
+output nucleotides    : 
+output proteins       : 
+gibbs version         : 3
+heuristic version     : 2
+evidense data file    : 
+combine native with   : 
+use input defline     : 
+
+      run starts here:
+prepare sequence
+/var/www/html/melc/prog/quast-5.0.2/quast_libs/genemark/linux_64/probuild --par /var/www/html/melc/prog/quast-5.0.2/quast_libs/genemark/linux_64/par_11.default  --clean_join sequence --seq /var/www/html/melc/prog/quast-5.0.2/quast_test_output/quast_corrected_input/contigs_2.fasta --log gms.log
+Clean-Join      IN   OUT
+Contigs - 2 2
+All letters - 5460   5510
+Unambiguous letters - 5460 5460
+A - 1316 1316
+C - 1364 1364
+G - 1499 1499
+T - 1281 1281
+N - 0 0
+Parameters:
+  Minimum of unambiguous letters per record: 1000
+  Trim down substrings "N...N" to maximum length: 50
+  Connect records using gap filler: NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN
+  Minimum of unambiguous letters in output: 50000
+system call done
+prepare sequence
+/var/www/html/melc/prog/quast-5.0.2/quast_libs/genemark/linux_64/probuild --par /var/www/html/melc/prog/quast-5.0.2/quast_libs/genemark/linux_64/par_11.default  --clean_join sequence --seq /var/www/html/melc/prog/quast-5.0.2/quast_test_output/quast_corrected_input/contigs_2.fasta --log gms.log --MIN_CONTIG_SIZE 0 --GAP_FILLER 
+Clean-Join      IN   OUT
+Contigs - 2 2
+All letters - 5460   5460
+Unambiguous letters - 5460 5460
+A - 1316 1316
+C - 1364 1364
+G - 1499 1499
+T - 1281 1281
+N - 0 0
+Parameters:
+  Minimum of unambiguous letters per record: 0
+  Trim down substrings "N...N" to maximum length: 50
+  Connect records using gap filler: 
+  Minimum of unambiguous letters in output: 50000
+system call done
+do_iterations = 0
+set initial <gmhmmp> model
+get GC
+/var/www/html/melc/prog/quast-5.0.2/quast_libs/genemark/linux_64/probuild --par /var/www/html/melc/prog/quast-5.0.2/quast_libs/genemark/linux_64/par_11.default  --gc --seq sequence
+GC of sequence = 52
+initial <gmhmm> model: /var/www/html/melc/prog/quast-5.0.2/quast_libs/genemark/linux_64/heuristic_mod/heu_11_52.mod
+copy initial model to working directory
+cp /var/www/html/melc/prog/quast-5.0.2/quast_libs/genemark/linux_64/heuristic_mod/heu_11_52.mod  itr_0.mod
+system call done
+run initial prediction
+/var/www/html/melc/prog/quast-5.0.2/quast_libs/genemark/linux_64/gmhmmp -g 11   sequence  -m itr_0.mod  -o itr_0.lst
+Error on last system call, error code 256
+Abort program!!!

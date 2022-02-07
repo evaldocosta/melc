@@ -1,0 +1,9 @@
+ID or #		Start	End	Type	Contig
+==================================================
+9		5683	6459	partial	contig2:701-1279
+986		337	2799	partial	contig1:1-1679
+987		2801	3733	partial	contig1:1681-2100,contig2:1-303
+988		3734	5020	partial	contig2:304-700
+1463		9306	9893	partial	contig2:3076-3360
+1506		6529	7959	partial	contig2:1349-1889
+1507		8238	9191	complete	contig2:2008-2961

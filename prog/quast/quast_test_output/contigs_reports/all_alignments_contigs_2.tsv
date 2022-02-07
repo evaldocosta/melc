@@ -1,0 +1,9 @@
+S1	E1	S2	E2	Reference	Contig	IDY	Ambiguous	Best_group
+1121	3220	1	2100	gi_49175990_ref_NC_000913.2_	contig1	100.0		True
+CONTIG	contig1	2100	correct
+3431	4130	1	700	gi_49175990_ref_NC_000913.2_	contig2	100.0		True
+relocation, inconsistency = 1750
+5881	7069	701	1889	gi_49175990_ref_NC_000913.2_	contig2	100.0		True
+relocation, inconsistency = 1050
+8120	9590	1890	3360	gi_49175990_ref_NC_000913.2_	contig2	100.0		True
+CONTIG	contig2	3360	misassembled

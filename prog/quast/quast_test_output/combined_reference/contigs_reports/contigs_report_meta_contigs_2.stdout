@@ -1,0 +1,137 @@
+Aligning contigs to reference...
+	Aligning contigs to the reference
+Filtering alignments...
+Parsing coords...
+Loading reference...
+	Loaded [meta_ref_1_Lactobacillus_plantarum_22_55k.fa]
+	Loaded [meta_ref_3_Lactobacillus_reuteri_F275_Kitasato_55_65k.fa]
+	Loaded [meta_ref_2_Lactobacillus_delbrueckii_bulgaricus_ATCC_BAA_365_32_60k.fa]
+	Total Regions: 3
+	Total Region Length: 179997
+Analyzing contigs...
+CONTIG: NODE_1_length_55421_cov_26.1146_ID_4744408 (54221bp)
+Best alignment score: 36102.0 (LEN: 36102, IDY: 100.00), Total number of alignments: 2
+			Looking for the best set of alignments (out of 2 total alignments)
+			The best set is below. Score: 53970.5, number of alignments: 2, unaligned bases: 0
+		This contig is misassembled.
+			Excluding internal overlap of size 1 between Alignment 1 and 2: 41879 59998 | 18120 1 | 18120 18120 --> 41880 59998 | 18119 1 | 18119 18119
+			Real Alignment 1: 41880 59998 | 18119 1 | 18119 18119 | 100.0 | meta_ref_2_Lactobacillus_delbrueckii_bulgaricus_ATCC_BAA_365_32_60k.fa NODE_1_length_55421_cov_26.1146_ID_4744408
+			  Extensive misassembly (relocation, inconsistency = 1200) between these two alignments
+			Real Alignment 2: 4578 40679 | 54221 18120 | 36102 36102 | 100.0 | meta_ref_2_Lactobacillus_delbrueckii_bulgaricus_ATCC_BAA_365_32_60k.fa NODE_1_length_55421_cov_26.1146_ID_4744408
+
+CONTIG: NODE_2_length_49658_cov_2.58581_ID_2497514 (49658bp)
+Best alignment score: 49648.1 (LEN: 49658, IDY: 99.98), Total number of alignments: 1
+		One align captures most of this contig: 5305 54962 | 1 49658 | 49658 49658 | 99.98 | meta_ref_1_Lactobacillus_plantarum_22_55k.fa NODE_2_length_49658_cov_2.58581_ID_2497514
+
+CONTIG: NODE_3_length_27260_cov_310.524_ID_9332986 (27260bp)
+Best alignment score: 27257.3 (LEN: 27260, IDY: 99.99), Total number of alignments: 3
+		Skipping these alignments as insignificant (option --ambiguity-score is set to "0.99"):
+			Skipping alignment 4349 4458 | 136 245 | 110 110 | 96.36 | meta_ref_2_Lactobacillus_delbrueckii_bulgaricus_ATCC_BAA_365_32_60k.fa NODE_3_length_27260_cov_310.524_ID_9332986
+			Skipping alignment 4214 4287 | 1 74 | 74 74 | 98.65 | meta_ref_2_Lactobacillus_delbrueckii_bulgaricus_ATCC_BAA_365_32_60k.fa NODE_3_length_27260_cov_310.524_ID_9332986
+		One align captures most of this contig: 7597 34856 | 1 27260 | 27260 27260 | 99.99 | meta_ref_3_Lactobacillus_reuteri_F275_Kitasato_55_65k.fa NODE_3_length_27260_cov_310.524_ID_9332986
+
+CONTIG: NODE_4_length_16099_cov_310.325_ID_9343456 (16099bp)
+Best alignment score: 16099.0 (LEN: 16099, IDY: 100.00), Total number of alignments: 1
+		One align captures most of this contig: 36665 52763 | 1 16099 | 16099 16099 | 100.0 | meta_ref_3_Lactobacillus_reuteri_F275_Kitasato_55_65k.fa NODE_4_length_16099_cov_310.325_ID_9343456
+
+CONTIG: NODE_5_length_10428_cov_300.989_ID_9343584 (10428bp)
+Best alignment score: 10428.0 (LEN: 10428, IDY: 100.00), Total number of alignments: 1
+		One align captures most of this contig: 54572 64999 | 1 10428 | 10428 10428 | 100.0 | meta_ref_3_Lactobacillus_reuteri_F275_Kitasato_55_65k.fa NODE_5_length_10428_cov_300.989_ID_9343584
+
+CONTIG: NODE_6_length_6988_cov_303.415_ID_9341226 (6988bp)
+Best alignment score: 6985.9 (LEN: 6988, IDY: 99.97), Total number of alignments: 4
+		Skipping these alignments as insignificant (option --ambiguity-score is set to "0.99"):
+			Skipping alignment 615 1391 | 3722 4498 | 777 777 | 95.11 | meta_ref_1_Lactobacillus_plantarum_22_55k.fa NODE_6_length_6988_cov_303.415_ID_9341226
+			Skipping alignment 1401 1850 | 4508 4957 | 450 450 | 96.67 | meta_ref_1_Lactobacillus_plantarum_22_55k.fa NODE_6_length_6988_cov_303.415_ID_9341226
+			Skipping alignment 1 79 | 3349 3427 | 79 79 | 100.0 | meta_ref_3_Lactobacillus_reuteri_F275_Kitasato_55_65k.fa NODE_6_length_6988_cov_303.415_ID_9341226
+		One align captures most of this contig: 25 7012 | 1 6988 | 6988 6988 | 99.97 | meta_ref_3_Lactobacillus_reuteri_F275_Kitasato_55_65k.fa NODE_6_length_6988_cov_303.415_ID_9341226
+
+CONTIG: NODE_7_length_3447_cov_44.4894_ID_2480336 (3447bp)
+Best alignment score: 3431.8 (LEN: 3447, IDY: 99.56), Total number of alignments: 2
+		Skipping these alignments as insignificant (option --ambiguity-score is set to "0.99"):
+			Skipping alignment 720 1193 | 2979 2506 | 474 474 | 96.84 | meta_ref_1_Lactobacillus_plantarum_22_55k.fa NODE_7_length_3447_cov_44.4894_ID_2480336
+		One align captures most of this contig: 3 3449 | 3447 1 | 3447 3447 | 99.56 | meta_ref_2_Lactobacillus_delbrueckii_bulgaricus_ATCC_BAA_365_32_60k.fa NODE_7_length_3447_cov_44.4894_ID_2480336
+
+CONTIG: NODE_8_length_817_cov_651.256_ID_9343784 (817bp)
+Best alignment score: 813.0 (LEN: 817, IDY: 99.51), Total number of alignments: 2
+		This contig has 2 significant alignments. [An ambiguously mapped contig]
+		Using all these alignments (option --ambiguity-usage is set to "all"):
+			Alignment: 52709 53525 | 1 817 | 817 817 | 99.51 | meta_ref_3_Lactobacillus_reuteri_F275_Kitasato_55_65k.fa NODE_8_length_817_cov_651.256_ID_9343784
+			Alignment: 34802 35618 | 1 817 | 817 817 | 98.65 | meta_ref_3_Lactobacillus_reuteri_F275_Kitasato_55_65k.fa NODE_8_length_817_cov_651.256_ID_9343784
+
+CONTIG: NODE_9_length_729_cov_671.122_ID_9343806 (729bp)
+Best alignment score: 729.0 (LEN: 729, IDY: 100.00), Total number of alignments: 2
+		Skipping these alignments as insignificant (option --ambiguity-score is set to "0.99"):
+			Skipping alignment 53899 54626 | 728 1 | 728 728 | 98.9 | meta_ref_3_Lactobacillus_reuteri_F275_Kitasato_55_65k.fa NODE_9_length_729_cov_671.122_ID_9343806
+		One align captures most of this contig: 35991 36719 | 729 1 | 729 729 | 100.0 | meta_ref_3_Lactobacillus_reuteri_F275_Kitasato_55_65k.fa NODE_9_length_729_cov_671.122_ID_9343806
+
+CONTIG: NODE_10_length_714_cov_2.71927_ID_9333852 (714bp)
+Best alignment score: 713.0 (LEN: 714, IDY: 99.86), Total number of alignments: 2
+		Skipping these alignments as insignificant (option --ambiguity-score is set to "0.99"):
+			Skipping alignment 1 123 | 464 342 | 123 123 | 99.19 | meta_ref_1_Lactobacillus_plantarum_22_55k.fa NODE_10_length_714_cov_2.71927_ID_9333852
+		One align captures most of this contig: 78 791 | 714 1 | 714 714 | 99.86 | meta_ref_1_Lactobacillus_plantarum_22_55k.fa NODE_10_length_714_cov_2.71927_ID_9333852
+
+CONTIG: NODE_11_length_694_cov_336.263_ID_9343406 (694bp)
+Best alignment score: 693.0 (LEN: 694, IDY: 99.86), Total number of alignments: 4
+		Skipping these alignments as insignificant (option --ambiguity-score is set to "0.99"):
+			Skipping alignment 3931 4268 | 357 694 | 338 338 | 96.15 | meta_ref_2_Lactobacillus_delbrueckii_bulgaricus_ATCC_BAA_365_32_60k.fa NODE_11_length_694_cov_336.263_ID_9343406
+			Skipping alignment 4189 4517 | 366 694 | 329 329 | 96.05 | meta_ref_1_Lactobacillus_plantarum_22_55k.fa NODE_11_length_694_cov_336.263_ID_9343406
+			Skipping alignment 3824 4142 | 1 319 | 319 319 | 95.61 | meta_ref_1_Lactobacillus_plantarum_22_55k.fa NODE_11_length_694_cov_336.263_ID_9343406
+		One align captures most of this contig: 6958 7651 | 1 694 | 694 694 | 99.86 | meta_ref_3_Lactobacillus_reuteri_F275_Kitasato_55_65k.fa NODE_11_length_694_cov_336.263_ID_9343406
+
+CONTIG: NODE_29_length_219_cov_25.5122_ID_8985538 (763bp)
+Best alignment score: 219.0 (LEN: 219, IDY: 100.00), Total number of alignments: 6
+			Looking for the best set of alignments (out of 6 total alignments)
+			Skipping redundant alignments after choosing the best set of alignments
+		Skipping redundant alignment 7777 7841 | 1 65 | 65 65 | 96.92 | meta_ref_3_Lactobacillus_reuteri_F275_Kitasato_55_65k.fa NODE_29_length_219_cov_25.5122_ID_8985538
+		Skipping redundant alignment 5124 5251 | 636 763 | 128 128 | 96.88 | meta_ref_3_Lactobacillus_reuteri_F275_Kitasato_55_65k.fa NODE_29_length_219_cov_25.5122_ID_8985538
+			The best set is below. Score: 597.1, number of alignments: 4, unaligned bases: 0
+		This contig is misassembled.
+			Real Alignment 1: 4394 4612 | 1 219 | 219 219 | 100.0 | meta_ref_2_Lactobacillus_delbrueckii_bulgaricus_ATCC_BAA_365_32_60k.fa NODE_29_length_219_cov_25.5122_ID_8985538
+			  Extensive misassembly (interspecies translocation) between these two alignments
+			Real Alignment 2: 21946 22153 | 427 220 | 208 208 | 98.08 | meta_ref_3_Lactobacillus_reuteri_F275_Kitasato_55_65k.fa NODE_29_length_219_cov_25.5122_ID_8985538
+			  Extensive misassembly (interspecies translocation) between these two alignments
+			Excluding internal overlap of size 2 between Alignment 3 and 4: 1717 1871 | 609 763 | 155 155 --> 1719 1871 | 611 763 | 153 153
+			Real Alignment 3: 3645 3827 | 428 610 | 183 183 | 100.0 | meta_ref_1_Lactobacillus_plantarum_22_55k.fa NODE_29_length_219_cov_25.5122_ID_8985538
+			  Extensive misassembly (interspecies translocation) between these two alignments
+			Real Alignment 4: 1719 1871 | 611 763 | 153 153 | 96.77 | meta_ref_2_Lactobacillus_delbrueckii_bulgaricus_ATCC_BAA_365_32_60k.fa NODE_29_length_219_cov_25.5122_ID_8985538
+
+CONTIG: NODE_35_specially_unaligned (885bp)
+		This contig is unaligned. (885 bp)
+		Unaligned bases: 885 (number of Ns: 0)
+
+Analyzing coverage...
+Writing SNPs into /var/www/html/melc/prog/quast-5.0.2/quast_test_output/combined_reference/contigs_reports/minimap_output/meta_contigs_2.used_snps.gz
+
+Analysis is finished!
+Founded SNPs were written into /var/www/html/melc/prog/quast-5.0.2/quast_test_output/combined_reference/contigs_reports/minimap_output/meta_contigs_2.used_snps.gz
+
+Results:
+	Local Misassemblies: 0
+	Misassemblies: 4
+		Relocations: 1
+		Translocations: 0
+		Interspecies translocations: 3
+		Inversions: 0
+	Potentially Misassembled Contigs (i/s translocations): 0
+		Possible Misassemblies: 0
+	Scaffold gap extensive misassemblies: 0
+	Scaffold gap local misassemblies: 0
+	Misassembled Contigs: 2
+	Misassembled Contig Bases: 54984
+	Misassemblies Inter-Contig Overlap: 0
+Unaligned Contigs: 1 + 0 part
+Half Unaligned Contigs with Misassemblies: 0
+Unaligned Contig Bases: 885
+
+Ambiguously Mapped Contigs: 1
+Total Bases in Ambiguously Mapped Contigs: 817
+Extra Bases in Ambiguously Mapped Contigs: 817
+Note that --allow-ambiguity option was set to "all" and each of these contigs was used several times.
+
+	Covered Bases: 171964
+
+	SNPs: 57
+	Insertions: 0
+	Deletions: 0
+

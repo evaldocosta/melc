@@ -1,0 +1,5 @@
+Assemblies   meta_contigs_1  meta_contigs_2
+meta_ref_1   50324           51135         
+meta_ref_2   59178           58431         
+meta_ref_3   69110           63778         
+not_aligned  2730            885           

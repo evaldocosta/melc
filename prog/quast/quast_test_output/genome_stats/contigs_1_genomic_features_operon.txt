@@ -1,0 +1,4 @@
+ID or #		Start	End	Type	Contig
+==================================================
+1		190	5020	partial	contig1:190-1120,contig2:1-1610,contig3:1-400
+2		8238	9893	complete	contig3:2218-3873

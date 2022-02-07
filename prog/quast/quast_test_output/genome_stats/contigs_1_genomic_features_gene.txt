@@ -1,0 +1,11 @@
+ID or #		Start	End	Type	Contig
+==================================================
+9		5683	6459	complete	contig3:1063-1839
+986		337	2799	partial	contig1:337-1120,contig2:1-1119
+987		2801	3733	partial	contig2:1121-1610
+988		3734	5020	partial	contig3:1-400
+1250		190	255	complete	contig1:190-255
+1463		9306	9893	complete	contig3:3286-3873
+1506		6529	7959	partial	contig3:1909-2030
+1507		8238	9191	complete	contig3:2218-3171
+3974		5234	5530	complete	contig3:614-910

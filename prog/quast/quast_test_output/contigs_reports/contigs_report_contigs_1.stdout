@@ -1,0 +1,59 @@
+Aligning contigs to reference...
+	Aligning contigs to the reference
+Filtering alignments...
+Parsing coords...
+Loading reference...
+	Loaded [gi_49175990_ref_NC_000913.2_]
+	Total Regions: 1
+	Total Region Length: 10000
+Analyzing contigs...
+CONTIG: contig1 (1120bp)
+Best alignment score: 1120.0 (LEN: 1120, IDY: 100.00), Total number of alignments: 1
+		One align captures most of this contig: 1 1120 | 1 1120 | 1120 1120 | 100.0 | gi_49175990_ref_NC_000913.2_ contig1
+
+CONTIG: contig2 (1610bp)
+Best alignment score: 1610.0 (LEN: 1610, IDY: 100.00), Total number of alignments: 1
+		One align captures most of this contig: 1681 3290 | 1 1610 | 1610 1610 | 100.0 | gi_49175990_ref_NC_000913.2_ contig2
+
+CONTIG: contig3 (3980bp)
+Best alignment score: 2030.0 (LEN: 2030, IDY: 100.00), Total number of alignments: 2
+			Looking for the best set of alignments (out of 2 total alignments)
+			The best set is below. Score: 3779.9, number of alignments: 2, unaligned bases: 0
+		This contig is misassembled.
+			Excluding internal overlap of size 2 between Alignment 1 and 2: 8049 10000 | 2029 3980 | 1952 1952 --> 8051 10000 | 2031 3980 | 1950 1950
+			Real Alignment 1: 4621 6650 | 1 2030 | 2030 2030 | 100.0 | gi_49175990_ref_NC_000913.2_ contig3
+			  Extensive misassembly (relocation, inconsistency = 1400) between these two alignments
+			Real Alignment 2: 8051 10000 | 2031 3980 | 1950 1950 | 100.0 | gi_49175990_ref_NC_000913.2_ contig3
+
+Analyzing coverage...
+Writing SNPs into /var/www/html/melc/prog/quast-5.0.2/quast_test_output/contigs_reports/minimap_output/contigs_1.used_snps.gz
+
+Analysis is finished!
+Founded SNPs were written into /var/www/html/melc/prog/quast-5.0.2/quast_test_output/contigs_reports/minimap_output/contigs_1.used_snps.gz
+
+Results:
+	Local Misassemblies: 0
+	Misassemblies: 1
+		Relocations: 1
+		Translocations: 0
+		Inversions: 0
+	Scaffold gap extensive misassemblies: 0
+	Scaffold gap local misassemblies: 0
+	Misassembled Contigs: 1
+	Misassembled Contig Bases: 3980
+	Misassemblies Inter-Contig Overlap: 0
+Unaligned Contigs: 0 + 0 part
+Half Unaligned Contigs with Misassemblies: 0
+Unaligned Contig Bases: 0
+
+Ambiguously Mapped Contigs: 0
+Total Bases in Ambiguously Mapped Contigs: 0
+Extra Bases in Ambiguously Mapped Contigs: 0
+Note that --allow-ambiguity option was set to "one" and only first alignment per each of these contigs was used.
+
+	Covered Bases: 6710
+
+	SNPs: 0
+	Insertions: 0
+	Deletions: 0
+

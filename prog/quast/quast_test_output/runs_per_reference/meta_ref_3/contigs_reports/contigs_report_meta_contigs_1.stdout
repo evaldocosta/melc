@@ -1,0 +1,85 @@
+Aligning contigs to reference...
+	Aligning contigs to the reference
+Filtering alignments...
+Parsing coords...
+Loading reference...
+	Loaded [meta_ref_3_Lactobacillus_reuteri_F275_Kitasato_55_65k.fa]
+	Total Regions: 1
+	Total Region Length: 64999
+Analyzing contigs...
+CONTIG: NODE_25_length_832_cov_317.008 (832bp)
+Best alignment score: 832.0 (LEN: 832, IDY: 100.00), Total number of alignments: 1
+		One align captures most of this contig: 6129 6960 | 832 1 | 832 832 | 100.0 | meta_ref_3_Lactobacillus_reuteri_F275_Kitasato_55_65k.fa NODE_25_length_832_cov_317.008
+
+CONTIG: NODE_30_length_694_cov_43.795 (694bp)
+Best alignment score: 694.0 (LEN: 694, IDY: 100.00), Total number of alignments: 1
+		One align captures most of this contig: 6958 7651 | 1 694 | 694 694 | 100.0 | meta_ref_3_Lactobacillus_reuteri_F275_Kitasato_55_65k.fa NODE_30_length_694_cov_43.795
+
+CONTIG: NODE_32_length_1057_cov_298.503 (1057bp)
+Best alignment score: 1056.0 (LEN: 1057, IDY: 99.91), Total number of alignments: 1
+		One align captures most of this contig: 3868 4924 | 1 1057 | 1057 1057 | 99.91 | meta_ref_3_Lactobacillus_reuteri_F275_Kitasato_55_65k.fa NODE_32_length_1057_cov_298.503
+
+CONTIG: NODE_34_length_3898_cov_294.65 (3898bp)
+Best alignment score: 3896.8 (LEN: 3898, IDY: 99.97), Total number of alignments: 1
+		One align captures most of this contig: 25 3922 | 1 3898 | 3898 3898 | 99.97 | meta_ref_3_Lactobacillus_reuteri_F275_Kitasato_55_65k.fa NODE_34_length_3898_cov_294.65
+
+CONTIG: NODE_37_length_747_cov_199.488 (747bp)
+Best alignment score: 747.0 (LEN: 747, IDY: 100.00), Total number of alignments: 1
+		One align captures most of this contig: 6958 7704 | 1 747 | 747 747 | 100.0 | meta_ref_3_Lactobacillus_reuteri_F275_Kitasato_55_65k.fa NODE_37_length_747_cov_199.488
+
+CONTIG: NODE_38_length_862_cov_88.5167 (862bp)
+Best alignment score: 842.9 (LEN: 862, IDY: 97.79), Total number of alignments: 1
+		One align captures most of this contig: 6958 7819 | 1 862 | 862 862 | 97.79 | meta_ref_3_Lactobacillus_reuteri_F275_Kitasato_55_65k.fa NODE_38_length_862_cov_88.5167
+
+CONTIG: NODE_40_length_987_cov_309.523 (987bp)
+Best alignment score: 987.0 (LEN: 987, IDY: 100.00), Total number of alignments: 1
+		One align captures most of this contig: 5197 6183 | 1 987 | 987 987 | 100.0 | meta_ref_3_Lactobacillus_reuteri_F275_Kitasato_55_65k.fa NODE_40_length_987_cov_309.523
+
+CONTIG: NODE_41_length_17535_cov_311.913 (17535bp)
+Best alignment score: 17530.5 (LEN: 17534, IDY: 99.98), Total number of alignments: 1
+		One align captures most of this contig: 35992 53525 | 17534 1 | 17534 17534 | 99.98 | meta_ref_3_Lactobacillus_reuteri_F275_Kitasato_55_65k.fa NODE_41_length_17535_cov_311.913
+
+CONTIG: NODE_42_length_11102_cov_303.126 (11102bp)
+Best alignment score: 11093.2 (LEN: 11101, IDY: 99.93), Total number of alignments: 1
+		One align captures most of this contig: 53899 64999 | 2 11102 | 11101 11101 | 99.93 | meta_ref_3_Lactobacillus_reuteri_F275_Kitasato_55_65k.fa NODE_42_length_11102_cov_303.126
+
+CONTIG: NODE_43_length_3427_cov_1.72301 (3427bp)
+Best alignment score: 3426.0 (LEN: 3427, IDY: 99.97), Total number of alignments: 1
+		One align captures most of this contig: 25 3451 | 1 3427 | 3427 3427 | 99.97 | meta_ref_3_Lactobacillus_reuteri_F275_Kitasato_55_65k.fa NODE_43_length_3427_cov_1.72301
+
+CONTIG: NODE_44_length_27969_cov_310.914 (27969bp)
+Best alignment score: 27957.8 (LEN: 27969, IDY: 99.96), Total number of alignments: 1
+		One align captures most of this contig: 7650 35618 | 27969 1 | 27969 27969 | 99.96 | meta_ref_3_Lactobacillus_reuteri_F275_Kitasato_55_65k.fa NODE_44_length_27969_cov_310.914
+
+Analyzing coverage...
+Writing SNPs into /var/www/html/melc/prog/quast-5.0.2/quast_test_output/runs_per_reference/meta_ref_3/contigs_reports/minimap_output/meta_contigs_1.used_snps.gz
+
+Analysis is finished!
+Founded SNPs were written into /var/www/html/melc/prog/quast-5.0.2/quast_test_output/runs_per_reference/meta_ref_3/contigs_reports/minimap_output/meta_contigs_1.used_snps.gz
+
+Results:
+	Local Misassemblies: 0
+	Misassemblies: 0
+		Relocations: 0
+		Translocations: 0
+		Inversions: 0
+	Scaffold gap extensive misassemblies: 0
+	Scaffold gap local misassemblies: 0
+	Misassembled Contigs: 0
+	Misassembled Contig Bases: 0
+	Misassemblies Inter-Contig Overlap: 0
+Unaligned Contigs: 0 + 0 part
+Half Unaligned Contigs with Misassemblies: 0
+Unaligned Contig Bases: 0
+
+Ambiguously Mapped Contigs: 0
+Total Bases in Ambiguously Mapped Contigs: 0
+Extra Bases in Ambiguously Mapped Contigs: 0
+Note that --allow-ambiguity option was set to "one" and only first alignment per each of these contigs was used.
+
+	Covered Bases: 63957
+
+	SNPs: 42
+	Insertions: 1
+	Deletions: 1
+

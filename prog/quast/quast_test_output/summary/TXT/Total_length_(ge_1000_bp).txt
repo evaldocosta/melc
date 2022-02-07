@@ -1,0 +1,4 @@
+Assemblies  meta_contigs_1  meta_contigs_2
+meta_ref_1  49610           49658         
+meta_ref_2  57399           57668         
+meta_ref_3  64988           60775         
