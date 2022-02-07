@@ -32,14 +32,7 @@ SOFTWARE REQUIREMENTS
 INSTALLATION
 ------------
 
-- Download files melc-genomics-2.0.tar.gzaa, melc-genomics-2.0.tar.gzab and melc-genomics-2.0.tar.gzac and uncompress.
-
-        # cat melc-genomics-2.0.tar.gz* > melc-genomics-2.0.tar.gz
-        # tar xzvf melc-genomics-2.0.tar.gz
-        
-- Move melc directory to web directory.
-
-        # mv melc /var/www/html
+- By downloading MELC Genomics 2.0, install the files in the directory where the web server is installed. By default, the web server is installed in the /var/www/html directory.
 
 - Edit file /etc/httpd/conf/httpd.conf and add line:
 
@@ -71,12 +64,6 @@ INSTALLATION
 - Access the MELC in your browser.
 
         http://your.server/melc
-
-
-AUTHOR AND CONTACT
-------------------
-
-Evaldo B. Costa - evaldodacosta@gmail.com
 
 
 COPYRIGHT
