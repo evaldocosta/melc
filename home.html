@@ -1,0 +1,24 @@
+<html>
+
+<?php @session_start(); if(!isset($_SESSION['usuario'])){header("Location: index.php"); exit();}?>
+
+<head>
+<title>MELC Genomics - Framework for DNA Assembly</title>
+</head>
+<br>
+<p><font face="Arial" size="4"><b>MELC Genomics</b> is a framework for DNA assembly.</font></p>
+
+<p><font face="Arial" size="4">The development of the NGS techniques made possible the assembly of complete genomes as well as several analysis, contributing to advances in many areas such as human health, animal production and ecology.</font></p>
+
+<p><font face="Arial" size="4">Nevertheless, due to the fact that most of organisms do not have a reference genome, strategies for <i>de novo</i> assembly were developed. The most common strategies are based on graphs, such as De Bruijn Graphs and Overlap Layout Consensus (OLC).</font></p>
+
+<p><font face="Arial" size="4">Here we made available a complete pipeline for <i>de novo</i> genome assembly, where the user will be able to:</font></p>
+
+<p><font face="Arial" size="4"><li>system information and performance monitoring;</li></font></p>
+<p><font face="Arial" size="4"><li>check the quality before and after the processing of the raw data files;</li></font></p>
+<p><font face="Arial" size="4"><li>assemble the genome;</li></font></p>
+<p><font face="Arial" size="4"><li>check the quality of the assembly.</li></font></p>
+<br>
+
+</body>
+</html>

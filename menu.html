@@ -1,0 +1,84 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>MELC Genomics - Framework for DNA Assembly</title>
+<script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
+<script type="text/javascript">
+
+$(document).ready(function(e) {
+   $('.has-sub').click(function(){
+		$(this).toggleClass('tap');
+	});
+});
+
+</script>
+<style type="text/css">
+* {padding:0; margin:0;}
+.main-nav {width:250px; background: rgba(220,220,220,1.00);}
+.main-nav li {list-style: none;}
+.main-nav a {
+	color: #000000;
+	text-transform: uppercase;
+	letter-spacing: .2em;
+	text-decoration: none;
+	display: block;
+	padding: 10px 0 10px 20px;
+	border-bottom: 0px dotted gray;
+}
+.main-nav a:hover {background: rgba(192,192,192,1.00);}
+.main-nav-ul ul {display: none;}
+.main-nav-ul li.tap ul {display: block;}
+
+.main-nav-ul ul a:before {
+	content: '\203A';
+	margin-right: 20px;
+}
+
+.main-nav .sub-arrow:after {
+	content: '\203A';
+	float: right;
+	margin-right: 20px;
+	transform: rotate(90deg);
+	-webkit-transform: rotate(90deg);
+	-moz-transform: rotate(90deg);
+}
+.main-nav li.tap .sub-arrow:after {
+	content: '\2039';
+}
+</style>
+</head>
+<body style="background-color:gainsboro;">
+<nav class="main-nav">
+	<ul class="main-nav-ul">
+   	<li><a href="home.html" target="main" >Home</a></li>
+   	<li><a href="monitor/index.php" target="main" >System Information</a></li>
+      
+      <li class="has-sub"><a href="#" >Data File<span class="sub-arrow"></span></a>
+      	<ul>
+         	<li><a href="data/upload.php" target="main" >Upload</a></li>
+            <li><a href="data/delete/index.php" target="main" >List and Delete</a></li>
+         </ul>
+      </li>
+      
+      <li class="has-sub"><a href="#" >Quality<span class="sub-arrow"></span></a>
+      	<ul>
+            <li><a href="quality/data/quality.php" target="main" >Data File</a></li>
+            <li><a href="quality/assembly/quality.php" target="main" >Assembly</a></li>
+            <li><a href="quality/results/index.php" target="main" >Results</a></li>
+         </ul>
+      </li>
+
+      <li class="has-sub"><a href="#" >Assembly<span class="sub-arrow"></span></a>
+      	<ul>
+            <li><a href="assembly/velvet/assembly.php" target="main" >Parameter</a></li>
+            <li><a href="assembly/results/index.php" target="main" >Results</a></li>
+         </ul>
+      </li>
+
+      <li><a href="contact.php#" target="main" >Contact</a></li>
+   </ul>
+</nav>
+
+</body>
+</html>
