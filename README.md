@@ -10,6 +10,9 @@ Here we made available a pipeline for de novo genome assembly, where the user wi
 - assemble the genome;
 - check the quality of the assembly.
 
+![image](https://user-images.githubusercontent.com/21083818/155903083-752e0fa4-ca3d-4380-9fbc-056a2714b6ff.png)
+
+
 
 SYSTEM REQUIREMENTS
 -------------------
